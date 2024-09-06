@@ -29,18 +29,18 @@ export class EmpAddEditComponent implements OnInit {
     this.empForm = this.formBuilder.group({
       code: ['',  { validators: [Validators.required , Validators.pattern('^(([A-Z])|#)[0-9]{3}(([0-9][A-Z]{2}|[A-Z]{2}.)[0-9]$)|(([0-9][A-Z]{2}|[A-Z]{2}.).[0-9]{2})$') ,Validators.pattern('^.{8}$|^.{10}$'),]}],
       // code: ['', Validators.required, Validators.pattern('([A-Z][A-Z])(#)')],
-      firstName: ['', Validators.required],
-      middleName: ['', Validators.required],
-      lastName: ['', Validators.required],
+      firstName: ['', { validators: [Validators.required ,Validators.minLength(2)]}],
+      middleName: ['', { validators: [Validators.required ,Validators.minLength(2)]}],
+      lastName: ['', { validators: [Validators.required ,Validators.minLength(2)]}],
       grade: ['', Validators.required],
       department: ['', Validators.required],
       reportingManger: ['', Validators.required],
-      basicSalary: ['', Validators.required],
-      houseRent: ['', Validators.required],
-      otherAllowance: ['', Validators.required],
+      basicSalary: ['', { validators: [Validators.required,Validators.min(0),Validators.max(100000)]}],
+      houseRent: ['', { validators: [Validators.required,Validators.min(0),Validators.max(100000)]}],
+      otherAllowance: ['',{ validators: [Validators.required,Validators.min(0),Validators.max(100000)]}],
       skills: ['', Validators.required],
-      salaryPM: ['', Validators.required],
-      salaryPA: ['', Validators.required]
+      salaryPM: ['',{ validators: [Validators.required,Validators.min(0),Validators.max(100000)]}],
+      salaryPA: ['', { validators: [Validators.required,Validators.min(0),Validators.max(1200000)]}],
     });
   }
   selectedDep = 1;
