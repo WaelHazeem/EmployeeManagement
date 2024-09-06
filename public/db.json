@@ -1,0 +1,297 @@
+{
+  "employees": [
+    {
+      "code": "A0001AB1",
+      "firstName": "David",
+      "middleName": "Jhon",
+      "lastName": "Smith",
+      "grade": 4,
+      "department": "2",
+      "reportingManger": "2",
+      "basicSalary": 3000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "1"
+    },
+    {
+      "code": "A0002HJ8",
+      "firstName": "Oliver",
+      "middleName": "Jake",
+      "lastName": "Noah",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 4000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "2"
+    },
+    {
+      "code": "R0021UIy96",
+      "firstName": "Jack",
+      "middleName": "Connor",
+      "lastName": "Liam",
+      "grade": 4,
+      "department": "3",
+      "reportingManger": "2",
+      "basicSalary": 5000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "3"
+    },
+    {
+      "code": "F362TEt4",
+      "firstName": "Harry",
+      "middleName": "Callum",
+      "lastName": "Mason",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 6000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "4"
+    },
+    {
+      "code": "A8502HJ8",
+      "firstName": "Jacob",
+      "middleName": "Michael",
+      "lastName": "William",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 5000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "5"
+    },
+    {
+      "code": "A8692HJ8",
+      "firstName": "Thomas",
+      "middleName": "Joe",
+      "lastName": "Ethan",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 5200,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "6"
+    },
+    {
+      "code": "A8605HJ8",
+      "firstName": "Thomas",
+      "middleName": "Joe",
+      "lastName": "Michael",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 5000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "7"
+    },
+    {
+      "code": "A7535HJ8",
+      "firstName": "George",
+      "middleName": "Reece",
+      "lastName": "Michael",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 4500,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Critical thinking",
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "8"
+    },
+    {
+      "code": "A0009HJ8",
+      "firstName": "Oscar",
+      "middleName": "Rhys",
+      "lastName": "Alexander",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 2000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "9"
+    },
+    {
+      "code": "A0909HJ8",
+      "firstName": "James",
+      "middleName": "Charlie",
+      "lastName": "James",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 3300,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "10"
+    },
+    {
+      "code": "B6502HJ8",
+      "firstName": "William",
+      "middleName": "Damian",
+      "lastName": "Daniel",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 4000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "11"
+    },
+    {
+      "code": "B5009HJ8",
+      "firstName": "Amelia",
+      "middleName": "Jacob",
+      "lastName": "William",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 5000,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "12"
+    },
+    {
+      "code": "B5479HJ8",
+      "firstName": "Emily",
+      "middleName": "Robert",
+      "lastName": "William",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 3100,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "13"
+    },
+    {
+      "code": "C500HJy8",
+      "firstName": "Joanne",
+      "middleName": "Michael",
+      "lastName": "Charles",
+      "grade": 4,
+      "department": 1,
+      "reportingManger": "2",
+      "basicSalary": 4400,
+      "houseRent": 2000,
+      "otherAllowance": 2000,
+      "skills": [
+        "Conflict resolution"
+      ],
+      "salaryPM": 6000,
+      "salaryPA": 72000,
+      "id": "14"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Sales"
+    },
+    {
+      "id": "2",
+      "name": "Marketing"
+    },
+    {
+      "id": "3",
+      "name": "Human Resources"
+    },
+    {
+      "id": "4",
+      "name": "Research and development"
+    },
+    {
+      "id": "5",
+      "name": "Information technology"
+    }
+  ],
+  "reportingManagers": [
+    {
+      "id": "1",
+      "name": "Adam"
+    },
+    {
+      "id": "2",
+      "name": "William"
+    },
+    {
+      "id": "3",
+      "name": "Jacob"
+    },
+    {
+      "id": "4",
+      "name": "Dan"
+    }
+  ]
+}

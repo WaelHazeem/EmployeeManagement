@@ -1,0 +1,102 @@
+<div mat-dialog-title>
+    <h1>{{data ? 'Edit': 'Add'}} Employee Form</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Code:</mat-label>
+                <input matInput type="text" placeholder="i.e Code" formControlName="code">
+            </mat-form-field>
+
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>First name:</mat-label>
+                <input matInput type="text" placeholder="i.e David" formControlName="firstName">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Middle Name:</mat-label>
+                <input matInput type="text" placeholder="i.e Jhon" formControlName="middleName">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Last Name:</mat-label>
+                <input matInput type="text" placeholder="i.e Smith" formControlName="lastName">
+            </mat-form-field>
+        </div>
+       
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Department:</mat-label>
+                <mat-select formControlName="department"  [(value)]="selectedDep"> 
+                    <mat-option *ngFor="let val of department" [value]="val.id">{{val.name}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Manager:</mat-label>
+                <mat-select formControlName="reportingManger"  [(value)]="selectedRM"> 
+                    <mat-option *ngFor="let val of reportingMangers" [value]="val.id">{{val.name}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Grade </mat-label>
+                <input matInput placeholder="i.e 1" type="number" formControlName="grade">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field>
+                <mat-label>Skills</mat-label>
+                <mat-select multiple [value]="selectedSkills" formControlName="skills">
+                    @for (skill of skillList; track skill) {
+                    <mat-option [value]="skill">{{skill}}</mat-option>
+                    }
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Basic Salary</mat-label>
+                <input matInput placeholder="i.e 15000" type="number" formControlName="basicSalary">
+                <mat-hint>In dollar</mat-hint>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>House Rent</mat-label>
+                <input matInput placeholder="i.e 1000" type="number" formControlName="houseRent">
+                <mat-hint>In dollar</mat-hint>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Other Allowance</mat-label>
+                <input matInput placeholder="i.e 1000" type="number" formControlName="otherAllowance">
+                <mat-hint>In dollar</mat-hint>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Total Salary/PM:</mat-label>
+                <input matInput placeholder="i.e 15000" type="number" formControlName="salaryPM">
+                <mat-hint>In dollar</mat-hint>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Total Salary/PA:</mat-label>
+                <input matInput placeholder="i.e 15000" type="number" formControlName="salaryPA">
+                <mat-hint>In dollar</mat-hint>
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action-btns">
+        <button style="margin: 10px;" mat-raised-button color="accent" type="submit">{{data ? 'Update':
+            'Save'}}</button>
+        <button mat-raised-button type="button" color="warn" [mat-dialog-close]="false">Cancel</button>
+    </div>
+</form>
